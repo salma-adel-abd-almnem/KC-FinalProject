@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/salma1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="244dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-13dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="118dp"
+        android:text="نبذة عن رواية الطنطورية:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="414dp"
+        android:layout_height="499dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#F8F5D9"
+        android:text="  تروي رواية الطنطورية أحداثًا تاريخية عاشتها فلسطين، بدأت الرواية باستقرار الوضع وتغير بمجرد انتشار قرار تقسيم فلسطين، وبعد هذا التقسيم ستدخل كل من الطنطورية وخط الساحل من جنوب عكا إلى جنوب يافا إلى منطقة اليهود.  لم يقبل الأهالي بذلك فكانوا يقيمون الاجتماعات للبحث عن حل لتلك المصيبة التي حلت بهم.  انتفض العرب على اليهود انتقامًا منهم وردًا على الهجوم الذي شنوه عليهم. بعد فترة من الحادثة اخرج أهل قيسارية من أرضهم فقدموا نحو الطنطورية فاستضافوهم. استعد الأهالي لمواجهة العدو فحصلوا على السلاح وتدربوا جيدًا ليتمكنوا من هزيمة العدو وأصبحت المقاومة هدف الجميع.  بعد فترة من هذا الاستقرار وفي إحدى الليالي استفاق أهل يافا على حادثة مغادرة البريطانيين ودخول اليهود إلى فلسطين وأرادوا فرض دولة تدعى إسرائيل. استعد العرب لمواجهة هذا العدو المشترك فخاضوا حروبًا كثيرة، لكن ذلك لم يجد نفعًا فتتالت الخيبات وظل هذا الهدف حلمًا عربيًا يطمح إليه الجميع. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#020202"
+        android:textColorLink="#ECE4E4"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-105dp"
+        android:layout_marginBottom="-2dp"
+        app:srcCompat="@drawable/tantorea" />
+</RelativeLayout>

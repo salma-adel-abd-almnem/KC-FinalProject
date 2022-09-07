@@ -3,83 +3,74 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:paddingBottom="5dp">
 
     <RelativeLayout
         android:id="@+id/salma"
-        android:layout_width="398dp"
-        android:layout_height="159dp"
-        android:background="#C2D3E1"
+        android:layout_width="389dp"
+        android:layout_height="174dp"
+        android:background="#0A2335"
         android:gravity="center"
         android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="77dp"
-            android:layout_height="36dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginEnd="296dp"
-            android:layout_marginBottom="27dp"
-            android:text="Grade : 10"
-            android:textColor="#000000"
-            android:textStyle="bold" />
+        app:layout_constraintVertical_bias="0.007">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="75dp"
-            android:layout_height="33dp"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="42dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="296dp"
-            android:layout_marginBottom="69dp"
-            android:text="Age : 15"
-            android:textColor="#020202"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="132dp"
+            android:layout_marginEnd="109dp"
+            android:layout_marginBottom="0dp"
+            android:text="للكاتبة : رضوى عاشور"
+            android:textColor="#FFF9F9"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="112dp"
-            android:layout_height="29dp"
+            android:layout_width="wrap_content"
+            android:layout_height="81dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="26dp"
-            android:layout_marginTop="21dp"
-            android:layout_marginEnd="275dp"
-            android:layout_marginBottom="112dp"
-            android:text="Name : Salma"
-            android:textColor="#090909"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="138dp"
+            android:layout_marginBottom="31dp"
+            android:text="الطنطورية"
+            android:textColor="#FBFBFB"
+            android:textColorHint="#00F6F5F5"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="232dp"
-            android:layout_height="144dp"
+            android:id="@+id/imageView"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="171dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="9dp"
-            android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/salma" />
+            android:layout_marginStart="249dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/_46354315" />
+
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

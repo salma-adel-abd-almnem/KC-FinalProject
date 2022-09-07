@@ -2,23 +2,90 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:orientation="vertical"
+    android:background="@drawable/picsart_22_09_03_20_34_25_743"
     tools:context=".MainActivity">
 
-    <ListView
-        android:id="@+id/listview5"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <EditText
+        android:id="@+id/editText1"
+        style="@android:style/Widget.Material.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_above="@+id/editTextTextEmailAddress"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#FFCDD2"
+        android:drawableStart="@drawable/ic_person_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="224dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/editTextTextPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_email_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:textColorHint="#040404" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="197dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_lock_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="-4dp"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="#C89A9E"
+        android:enabled="true"
+        android:text="Log in" />
+
+
+
 </RelativeLayout>
